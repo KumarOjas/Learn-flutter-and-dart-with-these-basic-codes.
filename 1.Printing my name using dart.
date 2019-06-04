@@ -4,7 +4,7 @@ void main()
   / Declare a variable by using var//
   /variable's name is "name'//
   /It runs the myName() function
-  print('My name is $name');
+  print('My name is ${name}');
  }
 String myName()
 /String is the type of value that will be returned//
