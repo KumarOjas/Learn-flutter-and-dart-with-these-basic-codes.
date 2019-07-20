@@ -1,0 +1,115 @@
+class Person {
+String firstName;
+
+printName() {
+print(firstName);
+}}
+
+
+Output:
+My name is Ojas
+
+
+
+//Creating Objects
+void main()
+var person =new Person();
+person.firstName='Ojas';
+person.printName();
+}
+class Person {
+String firstName;
+
+printName() {
+print(firstName);
+}
+
+
+Output:Ojas
+
+
+//Constructor Functions
+
+void main () {
+var person =new Person('Ojas');
+
+
+person.printName();
+}
+class Person {
+String firstName;
+Person(this.firstName);
+
+printName(){
+
+print(firstName);
+
+}
+
+
+}
+
+Output:Ojas
+ 
+
+void main() 
+{
+var person =new Person ('Ojas');
+
+person.printName();
+
+}
+
+class Person {
+String firstName;
+Person(this.firstName);
+
+printName() {
+print(firstName);
+}
+
+
+
+Output: 
+Ojas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
