@@ -13,4 +13,4 @@ String myName()
 {
   return 'Ojas';/Function body//
 }
-Output:My name is Ojas
+Output:My name is 4
