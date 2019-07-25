@@ -1,0 +1,38 @@
+/*
+Refactoring to a stateful Widgett 
+
+
+Steps:
+| Break the widget into two
+| separate classes,the Widget 
+| and the Widget's State.
+|
+|  Add a 'createState' method to
+|   the Widget class that returns 
+|  an instance of WidgetState
+|
+|  Add a build method to the Widget
+|  State class
+|  
+|   Add instance Variables to the 
+|    Widget State class
+|
+|   Any time the WidgetState class's 
+|   data changes,call the 'setState' 
+|   method
+
+*/
+
+
+    import 'package:flutter/material.dart';
+    class App extends StatefulWidget {
+    createState () {
+    return AppState();
+    }}
+
+   class AppState extends State<App> {
+   Widget build(context) {
+  return MaterialApp 
+   
+
+
