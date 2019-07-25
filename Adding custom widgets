@@ -1,0 +1,128 @@
+//File: app.dart
+// Create a class that will be our  custom widget
+//This class must extend the 'StatelessWidget' base class
+class App extends StatelessWidget {
+//Must define a 'build' method that returns
+//the widgets that *this* widget will show
+Widget build(context){
+return MaterialApp (
+home:Scaffold (
+floatingActionButton:FloatingActionButton(
+child:Icon(Icons.add),
+onPressed: () {
+print ('Hi there!');
+},
+),
+appBar:AppBar(
+title:Text('Let's see some images!'),
+),
+),
+);
+
+//Must define a 'buid ' method that returns
+//the widgets that *this* widget will show 
+
+/*
+Widgets are of two types:
+
+                     Widget
+                _______|  |_____________     
+                |                       |
+       Stateless Widget     Stateful widget
+       Used if this widget      Used if this widget is
+       will never contain its   going to maintain some 
+                                data source
+       own data
+*/
+
+
+//File:main.dart
+import 'packaage:flutter/material.dart';
+import 'src/app.dart';
+void main() {
+runApp(App());
+}
+
+
+
+
+
+
+/*
+_______________________________________________________________________________________________
+Import type                 |                                          Example                |
+____________________________|_________________________________________________________________|                          
+Importing from              | import 'dart:io'      import 'dart:collection'                  |
+the dart standard           |                                                                 |
+library                     |                                                                 |
+                            |                                                                 |
+                            |                                                                 |
+Import something            | import 'terminal.dart'  import 'option.dart'                    |
+from lib  into              |                                                                 |
+anything in lib             |                                                                 |
+                            |                                                                 |
+                            |                                                                 |
+                            |                                                                 |
+Import something            |  import 'package:PACKAGE_NAME/FILE';                            |
+into lib from               |  import 'package:flutter/material.dart';                        |
+annything outside           |                                                                 |
+lib                         |                                                                 |
+                            |                                                                 |
+                            |                                                                 |
+____________________________|__________________________________________________________________|
+*/
+
+
+
+
+Output:
+____________________________________________________________
+|      Let's see some images!                              |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                          |
+|                                                    +     |
+|                                                          |
+____________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+       
+       
+       
