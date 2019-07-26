@@ -1,5 +1,5 @@
 /*
-Refactoring to a stateful Widgett 
+Refactoring to a stateful Widget
 
 
 Steps:
@@ -32,7 +32,45 @@ Steps:
 
    class AppState extends State<App> {
    Widget build(context) {
-  return MaterialApp 
+  return MaterialApp (
+  home:Scaffold(
+  floatingActionButton:FloatingActionButton(
+  child: Icon(Icons.add),
+  onPressed: () {
+  counter +=1;
+  },
+  ),
+  print('Hi there!');
+  },
+  ),
+  appBar:AppBar (
+  title:Text ('Let's see some images!'),
+  ),
+  ),
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
    
 
 
