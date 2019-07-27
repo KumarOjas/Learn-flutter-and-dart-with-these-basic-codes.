@@ -31,23 +31,27 @@ Steps:
     }}
 
    class AppState extends State<App> {
+   int counter=0;
    Widget build(context) {
   return MaterialApp (
   home:Scaffold(
+  body:Text('$counter')
   floatingActionButton:FloatingActionButton(
   child: Icon(Icons.add),
   onPressed: () {
+  setState(() {
   counter +=1;
+  });
   },
   ),
-  print('Hi there!');
-  },
-  ),
-  appBar:AppBar (
   title:Text ('Let's see some images!'),
   ),
   ),
   
+  /* Output:
+  
+  Let's see some images!
+  1
   
   
   
@@ -59,9 +63,11 @@ Steps:
   
   
   
-  
-  
-  
+                          +
+    Note:On pressing the + sign the number increases by 1
+    */
+                          
+        
   
   
   
