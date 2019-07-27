@@ -1,0 +1,9 @@
+void main() {
+var circleSlot =new Slot<Circle>();
+circleSlot.insert(new Square());
+}
+
+class Circle{}
+class Square{}
+class Slot<T> {
+insert()
