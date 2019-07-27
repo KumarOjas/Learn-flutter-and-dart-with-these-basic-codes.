@@ -1,0 +1,26 @@
+import 'dart:convert';
+
+
+void main () {
+var rawJson ='{ "url": "http://blah.jpg",
+"id":1}';
+var parsedJson =json.decode(rawJson);
+print(parsedJson ['url'];
+}
+
+Output:
+https://blah.jpg
+
+
+import 'dart:convert';
+
+
+void main () {
+var rawJson ='{ "url": "http://blah.jpg",
+"id":1}';
+var parsedJson =json.decode(rawJson);
+print(parsedJson ['id'];
+}
+
+Output:
+1
